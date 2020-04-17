@@ -8,7 +8,7 @@
     </head>
     <body>
         <!--#= 같은 문서내에 엘리먼트 ID를 이용한 url 아이디 contents를 가진 url로 이동함.-->
-        <a href="#" class="skip" >본문바로가기</a>
+        <a href="#contents" class="skip" >본문바로가기</a>
         <header>
             <h1><a href="#a">한솔홈데코</a></h1>
             <h2 class="skip hide">대메뉴</h2>
@@ -35,13 +35,12 @@
             </nav>
         </header>
 
-        <section class="visual">
+        <section class="visual slide">
             <h2 class="hide">광고영역</h2>
             <a href="#a" class="prev">이전</a>
             <a href="#a" class="next">다음</a>
-            <div> <!--진짜 베너이미지의 전체-->
-                <div class="control"> <!--play pause랑 이미지-->
-                <div><!--play pause랑 이미지?-->
+            <div class="control"> <!--진짜 베너이미지의 전체-->
+                <div> <!--play pause랑 이미지-->
                     <div> <!--play pause-->
                         <a href="#a" class="play on">시작</a>
                         <a href="#a" class="pause">일시정지</a>
@@ -53,17 +52,19 @@
                         <li><a href="#a">한솔홈데코가구재</a></li>
                     </ul>
                 </div>    
-                </div>
-                <div class = "con">
-                    <div class="slide">
-                        <div class="txt">
-                            <p>자연을 닮은 친환경 바닥재</p>
-                        </div>
+            </div>
+
+            <div class = "con">
+                <div class="slide">
+                    <div class="txt">
+                        가구소재에서<br>
+                        인테리어 자재까지 
+                        <p>한솔홈데코 편리하고 행복한 공간을 만들어 갑니다.</p>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!--베너 아래 제품 아이콘-->
         <section class="product">
             <h2 class="hide">제품정보</h2>
             <ul>
@@ -76,58 +77,248 @@
             </ul>
         </section>
 
-        <section>
-            <div class="blog">
-                <div>한솔홈데코 블로그</div>
-                <ul>
-                    <li><a href="#a">
-                        <div class="blog-container">
-                            <div><img src="./images/blog-thumbview1.png" alt="화이트 인테리어 속 올리브 그린 도어가 포인트가 되는 곳!"/></div>
-                            <div class="blog-explain">
-                                <div><p class="">화이트 인테리어 속 올리브 그린 도어가 포인트가 되는 곳!</p></div>
-                                <div><p class="">시공공간</p><p>거실,방,욕실</p></div>
-                                <div><p class="">사용제품</p><p>마루,방문,중문</p></div>
-                                <div><p class="">인테리어점</p><p>가우디인테리어(대전T.010-4785-4636)</p></div>
-                                <div><p class="">한솔대리점</p><p> 우드앤 (대전 . 010-5544-2832 )</p></div>
-                            </div>
+        <section clss = "slide magazine">
+            <h2>한솔 매거진</h2>
+            <p>한솔홈데코의 다양한 제품을 만나보세요.</p>
+            <!--위에서 했던 < > 아이콘 그대로 가져오기 -->
+            <a href="#a" class="prev">이전</a>
+            <a href="#a" class="next">다음</a>
+            <div class="control">
+                <div><!--play pause랑 이미지-->
+                    <div> <!--play pause-->
+                        <a href="#a" class="play on">시작</a>
+                        <a href="#a" class="pause">일시정지</a>
+                    </div>
+                    <ul>
+                        <li>class="on"><a href="#a">SB_Flooring </a></li>
+                        <li><a href="#a">한솔홈데코 0</a></li>
+                        <li><a href="#a">한솔홈데코 1</a></li>
+                        <li><a href="#a">한솔홈데코 2</a></li>
+                    </ul>
+                </div>    
+            </div>
+            <div class="slide_box">
+                <div>
+                    <div class="left">
+                        <div>
+                            <h3>SB Flooring<span>[오리지널,해링본,강,엠보]</span></h3>
+                            <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한 친환경 차세대 온돌마루 입니다.</p>
+                            <a href="#a">자세히 보기</a>
                         </div>
-                    </a></li>
-                    <li><a href="#a">
-                        <div class="blog-container">
-                            <div><img src="./images/blog-thumbview2.png" alt="화이트 인테리어 속 올리브 그린 도어가 포인트가 되는 곳!"/></div>
-                            <div class="blog-explain">
-                                <div><p>다크한 블랙톤에 빈티지한 무늬결이 엣지있는 공간 연출</p></div>
-                                <div><p>시공공간</p><p>거실,방</p></div>
-                                <div><p>사용제품</p><p>마루(SB엠보)</p></div>
-                                <div><p>인테리어점</p><p>더 홈 (대전 T. 010-8004-7137)</p></div>
-                                <div><p>한솔대리점</p><p>라임 플로링 (대전 T.042-320-9432)</p></div>
-                            </div><!-- blog-explain -->
-                        </div><!-- blog-container -->
-                    </a></li>
-                        <li><a href="#a">
-                        <div class="blog-container">
-                        <div><img src="./images/blog-thumbview3.png" alt="화이트 인테리어 속 올리브 그린 도어가 포인트가 되는 곳!"/></div>
-                        <div class="blog-explain">
-                        <div><p>빈티지 스타일의 비즈니스 복합공간 완성</p></div>
-                        <div><p>시공공간</p><p>복합공간</p></div>
-                        <div><p>사용제품</p><p>월,도어,홉음판</p></div>
-                        <div><p>한솔대리점</p><p>선우상재 (시흥,Tel 031-402-1930)</p></div>
-                        </div><!-- blog-explain -->
-                        </div><!-- blog-container -->
-                        </a></li>
-                        <li><a href="#a">
-                        <div class="blog-container">
-                        <div><img src="./images/blog-thumbview4.png" alt="화이트 인테리어 속 올리브 그린 도어가 포인트가 되는 곳!"/></div>
-                        <div class="blog-explain">
-                        <div><p>공간마다 색다른 느낌을 살린 캐주얼 모던 인테리어</p></div>
-                        <div><p>시공공간</p><p>현관, 거실, 방</p></div>
-                        <div><p>사용제품</p><p>마루, 중문, 도어/몰딩</p></div>
-                        <div><p>한솔대리점</p><p>명힌우드 (서울, T.031-796-5583</p></div>
-                        </div><!-- blog-explain -->
-                        </div><!-- blog-container -->
-                        </a></li>
-                </ul>
+                        <img src="./images/bg_main03.jpg" alt="">
+                    </div><!--left div-->
+                    <ul class="right">
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/sample_thumb.jpg" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb2.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb3.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb4.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!--slidebox > div-->
+                <div>
+                    <div class="left">
+                        <div>
+                            <h3>SB Flooring<span>[오리지널,헤링본,강,엠보]</span></h3>
+                            <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한 친환경 차세대 온돌마루입니다.</p>
+                            <a href="#a">자세히 보기</a>
+                        </div>
+                        <img src="./images/bg_main03.jpg" alt="">
+                    </div>
+                    <ul class="right">
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/sample_thumb.jpg" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb2.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb3.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb4.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="left">
+                        <div>
+                            <h3>SB_Flooring<span>[오리지널,헤링본,강,엠보]</span></h3>
+                            <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한 친환경 차세대 온돌마루입니다.</p>
+                            <a href="#a">자세히 보기</a>    
+                        </div>
+                        <img src="./images/bg_main03.jpg" alt="">
+                    </div>
+                    <ul class="right">
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/sample_thumb.jpg" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb2.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>             
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb3.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#a">
+                                <div>
+                                    <img src="./images/thumb4.png" alt="">
+                                    <strong>바닥재&gt;강화마루&gt;소폭</strong>
+                                    리얼우드[7704]
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>       
+        </section>
+
+        <section class="notice">
+            <div class="clear">
+                <div class="top clear">
+                    <ul>
+                        <li><a href="#a">테마겔러리<span>한솔의 행복한 삶의 공간 이야기</span></a></li>
+                        <li><a href="#a">블로그<span>소소한 한솔 인테리어 이야기</span></a></li>
+                        <li><a href="#a">대리점 찾기<span>가까운 한솔홈데코 이야기</span></a></li>
+                    </ul>
+                    <div>
+                        <h2>제품찾기</h2>
+                        <div>
+                            <select title="검색조건 선택">
+                                <option>제품 전체검색</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="search" title="모델명 입력" placeholder="모델명을 입력하세요.">
+                        </div>
+                        <div><a href="#a">검색하기</a></div>
+                    </div>
+                </div>
+                <article>  <!--article과 section article 요소는 내용이 각기 독립적이고 홀로 설 수 있는 내용을 담음 , 블로그/포럼글/뉴슬기사 등 section은 서로 관계있는 문서를 분리하는 역할 주로,문서를 다른 주제로 구분짓기 위해 사용.-->
+                    <div class="left">
+                        <h2>공지</h2>
+                        <ul>
+                            <li><a href="#a"><span>한솔홈데코 홈페이지 리뉴얼 오픈 기념 공지사항</span><p>2020.04.04</p><div>이벤트 응모 블로그 바로가기</div></a></li>
+                            <li><a href="#a">스토리 보드 PET(영상)<p>2020.04.04</p><div>가구의 품격을 높이는 한솔 스토리보드 PET 새집증후...</div></a></li>    
+                        </ul>
+                        <a href="#a">더보기</a>
+                    </div>
+                    <div class="right">
+                        <h2>뉴스</h2>
+                        <ul>
+                            <li><a href="#a">[봄 스며드는 우리집] 한솔홈데코, 친환경 온돌마루 벽지 도어 '집안의 산뜻'<p>2020.04.04</p></a></li>
+                            <li><a href="#a">습기에 강하고 열효율성 높은 'SB마루'로 집안을 산뜻하게!<p>2020.04.04</p></a></li>
+                            <li><a href="#a">한솔홈데코가 제안하는 인테리어 트렌드 ⑥ - 강마루, 월, 중문 활용한 '소프트 빈티지'<p>2020.04.04</p></a></li>
+                        </ul>
+                        <a href="#a">더보기</a>
+                    </div>
+                </article>
             </div>
         </section>
+
+        <footer>
+            <div class="top clear">
+                <div>
+                    <ul>
+                        <li><a href="#a">고객상담</a></li>
+                        <li><a href="#a">개인정보처리방침</a></li>
+                        <li><a href="#a">기업지배구조</a></li>
+                        <li><a href="#a">윤리경영</a></li>
+                        <li><a href="#a">HOMEDECO SALES PORTAL</a></li>
+                        <li><a href="#a">E-Purchase</a></li>    
+                    </ul>
+                    <div>
+                        <p>고객상담<strong>080-777-2299</strong></p>
+                        <select>
+                            <option>FAMILY SITE</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="btm">
+                <p>한솔홈데코</p>
+                <ul>
+                    <li>서울동작구 보라매로5길 15(신대방동, 전문건설회관 27층)</li>
+                    <li>Tel. 080-777-2299</li>
+                    <li>개인정보취급관리자서범석</li>
+                    <li>E-mail homdec@hansol.com</li>
+                </ul>
+                <address>Copyright 2018 HANSOLHOMEDECO All rights reserved.</address>
+            </div>
+        </footer>
+
+        
      </body>
 </html>
